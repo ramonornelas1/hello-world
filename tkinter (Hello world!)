@@ -1,0 +1,6 @@
+from tkinter import * #crea el mensaje de hello world en una ventana de tkinter
+
+root = Tk()
+label1 = Label(root, text = "Hello world")
+label1.pack()
+root.mainloop()
